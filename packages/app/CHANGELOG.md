@@ -1,5 +1,41 @@
 # example-app
 
+## 0.2.18
+
+### Patch Changes
+
+- Updated dependencies [ba21797ca]
+- Updated dependencies [b2a5320a4]
+- Updated dependencies [12d8f27a6]
+- Updated dependencies [507513fed]
+- Updated dependencies [40c0fdbaa]
+- Updated dependencies [12d8f27a6]
+- Updated dependencies [42c8ebb79]
+- Updated dependencies [10362e9eb]
+- Updated dependencies [813c6a4f2]
+- Updated dependencies [40c0fdbaa]
+- Updated dependencies [f71589800]
+- Updated dependencies [2a271d89e]
+- Updated dependencies [d4f0a1406]
+- Updated dependencies [8a1566719]
+- Updated dependencies [d21058c34]
+- Updated dependencies [04667f571]
+- Updated dependencies [0452ba238]
+- Updated dependencies [02816ecd7]
+  - @backstage/plugin-kubernetes@0.3.12
+  - @backstage/plugin-circleci@0.2.11
+  - @backstage/plugin-cloudbuild@0.2.12
+  - @backstage/plugin-github-actions@0.3.5
+  - @backstage/plugin-scaffolder@0.6.1
+  - @backstage/cli@0.6.3
+  - @backstage/plugin-catalog@0.4.1
+  - @backstage/catalog-model@0.7.3
+  - @backstage/plugin-techdocs@0.6.0
+  - @backstage/core@0.6.4
+  - @backstage/plugin-api-docs@0.4.8
+  - @backstage/plugin-jenkins@0.3.12
+  - @backstage/plugin-catalog-react@0.1.1
+
 ## 0.2.17
 
 ### Patch Changes

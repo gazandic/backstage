@@ -1,5 +1,18 @@
 # @backstage/plugin-techdocs-backend
 
+## 0.6.3
+
+### Patch Changes
+
+- 52b5bc3e2: Forward authorization header on backend request if present
+- Updated dependencies [12d8f27a6]
+- Updated dependencies [497859088]
+- Updated dependencies [8adb48df4]
+- Updated dependencies [61299519f]
+  - @backstage/catalog-model@0.7.3
+  - @backstage/backend-common@0.5.5
+  - @backstage/techdocs-common@0.4.3
+
 ## 0.6.2
 
 ### Patch Changes

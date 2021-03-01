@@ -1,5 +1,40 @@
 # @backstage/plugin-scaffolder-backend
 
+## 0.9.0
+
+### Minor Changes
+
+- 96ccc8f69: Removed support for deprecated publisher auth configuration within the `scaffolder` configuration block, such as `scaffolder.github.token`. Access should instead be configured through `integrations` configuration.
+
+  For example, replace the following configuration in `app-config.yaml`
+
+  ```yaml
+  scaffolder:
+    github:
+      token: my-token
+  ```
+
+  with
+
+  ```yaml
+  integrations:
+    github:
+      - host: github.com
+        token: my-token
+  ```
+
+### Patch Changes
+
+- 12d8f27a6: Move logic for constructing the template form to the backend, using a new `./parameter-schema` endpoint that returns the form schema for a given template.
+- 12d8f27a6: Add version `backstage.io/v1beta2` schema for Template entities.
+- f31b76b44: Consider both authentication methods for both `onprem` and `cloud` BitBucket
+- d0ed25196: Fixed file path resolution for templates with a file location
+- Updated dependencies [12d8f27a6]
+- Updated dependencies [497859088]
+- Updated dependencies [8adb48df4]
+  - @backstage/catalog-model@0.7.3
+  - @backstage/backend-common@0.5.5
+
 ## 0.8.0
 
 ### Minor Changes

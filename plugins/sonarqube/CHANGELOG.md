@@ -1,5 +1,19 @@
 # @backstage/plugin-sonarqube
 
+## 0.1.14
+
+### Patch Changes
+
+- a4c575802: Display '-' instead of 'undefined' if no code coverage is reported.
+- Updated dependencies [12d8f27a6]
+- Updated dependencies [40c0fdbaa]
+- Updated dependencies [2a271d89e]
+- Updated dependencies [8a1566719]
+- Updated dependencies [02816ecd7]
+  - @backstage/catalog-model@0.7.3
+  - @backstage/core@0.6.4
+  - @backstage/plugin-catalog-react@0.1.1
+
 ## 0.1.13
 
 ### Patch Changes

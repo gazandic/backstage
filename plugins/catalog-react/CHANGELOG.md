@@ -1,5 +1,17 @@
 # @backstage/plugin-catalog-react
 
+## 0.1.1
+
+### Patch Changes
+
+- 02816ecd7: Fixed EntityProvider setting 'loading' bool erroneously to true
+- Updated dependencies [12d8f27a6]
+- Updated dependencies [40c0fdbaa]
+- Updated dependencies [2a271d89e]
+- Updated dependencies [8a1566719]
+  - @backstage/catalog-model@0.7.3
+  - @backstage/core@0.6.4
+
 ## 0.1.0
 
 ### Minor Changes

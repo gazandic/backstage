@@ -1,5 +1,12 @@
 # @backstage/cli
 
+## 0.6.3
+
+### Patch Changes
+
+- 507513fed: Bump `@svgr/webpack` from `5.4.x` to `5.5.x`.
+- d4f0a1406: New config command to export the configuration schema. When running backstage-cli with yarn, consider using `yarn --silent backstage-cli config:schema` to get a clean output on `stdout`.
+
 ## 0.6.2
 
 ### Patch Changes

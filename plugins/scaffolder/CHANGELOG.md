@@ -1,5 +1,19 @@
 # @backstage/plugin-scaffolder
 
+## 0.6.1
+
+### Patch Changes
+
+- 12d8f27a6: Move logic for constructing the template form to the backend, using a new `./parameter-schema` endpoint that returns the form schema for a given template.
+- Updated dependencies [12d8f27a6]
+- Updated dependencies [40c0fdbaa]
+- Updated dependencies [2a271d89e]
+- Updated dependencies [8a1566719]
+- Updated dependencies [02816ecd7]
+  - @backstage/catalog-model@0.7.3
+  - @backstage/core@0.6.4
+  - @backstage/plugin-catalog-react@0.1.1
+
 ## 0.6.0
 
 ### Minor Changes
